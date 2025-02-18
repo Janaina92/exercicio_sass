@@ -1,12 +1,12 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: Roboto, sans-serif;
 }
 
 body {
-  background-color: #f5f6fa;
+  background-color: #b7dddd;
 }
 
 li {
@@ -20,7 +20,7 @@ li {
 }
 
 header {
-  background-color: #182C61;
+  background-color: #a1f1f1;
   position: sticky;
   top: 0;
   left: 0;
@@ -40,7 +40,7 @@ header .container {
   margin-left: 2em;
 }
 .menu li a {
-  color: #fff;
+  color: #00d2d3;
   text-decoration: none;
 }
 
@@ -64,8 +64,8 @@ section {
 
 .product-button {
   display: block;
-  background-color: #44bd32;
-  color: #fff;
+  background-color: #3bc5c5;
+  color: #00d2d3;
   text-align: center;
   padding: 8px 0;
   border-radius: 8px;
@@ -73,7 +73,7 @@ section {
   text-decoration: none;
 }
 .product-button:hover {
-  background-color: #5fd64c;
+  background-color: rgb(219.7538461538, 250.7461538462, 250.7461538462);
 }
 
 @media screen and (max-width: 1023px) {
